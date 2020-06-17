@@ -57,6 +57,12 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " Plugin 'ascenator/L9', {'name': 'newL9'}
 Plugin 'davidhalter/jedi-vim'
 
+" View Folder hierarchy
+Plugin 'preservim/nerdtree'
+
+" Auto Close
+Plugin 'cohama/lexima.vim'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -72,9 +78,3 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 "
-" View Folder hierarchy
-Plugin 'preservim/nerdtree'
-
-" Auto Close
-Plugin 'cohama/lexima.vim'
-
