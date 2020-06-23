@@ -22,6 +22,8 @@ set smarttab
 set shiftwidth=4
 set tabstop=4
 
+" unmodified paste
+set paste
 
 " Configure backspace so it acts as it should act
 set backspace=eol,start,indent
@@ -62,6 +64,7 @@ Plugin 'preservim/nerdtree'
 
 " Auto Close
 Plugin 'cohama/lexima.vim'
+
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
