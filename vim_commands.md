@@ -5,3 +5,6 @@ gg
 
 ; Go to the end of the text
 G - (shift + g)
+
+; Delete all lines from any file
+:1,$d
