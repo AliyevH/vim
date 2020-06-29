@@ -8,3 +8,6 @@ G - (shift + g)
 
 ; Delete all lines from any file
 :1,$d
+
+; Select all lines from any file
+ggVG
