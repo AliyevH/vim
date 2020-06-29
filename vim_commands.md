@@ -11,3 +11,15 @@ G - (shift + g)
 
 ; Select all lines from any file
 ggVG
+
+; Select all lines from current line till end of file
+VG
+
+; Select all lines from current line till start of file
+Vgg
+
+; Select all lines from current cursor position till end of file
+vG
+
+; Select all lines from current cursor position till start of file
+vgg
