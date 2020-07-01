@@ -6,7 +6,7 @@ gg
 ; Go to the end of the text   
 G - (shift + g)
 
-; Delete all lines from any file
+; Delete all lines from any file   
 :1,$d
 
 ; Select all lines from any file
@@ -23,3 +23,5 @@ vG
 
 ; Select all lines from current cursor position till start of file
 vgg
+
+
